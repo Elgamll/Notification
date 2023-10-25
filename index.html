@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="maincontainer">
+      <div class="container">
+        <div class="navbar">
+          <p id="not">Notifications</p>
+          <input type="button" value="3" name="" id="notbutt" class="buttt" onclick="hamada()"/>
+          <div class="navbar">
+            <input  
+              type="button"
+              value="Mark as Read"
+              id="readunread"
+              onclick="readunread();"
+            > 
+          </div>
+        </div>
+        <div class="content">
+          <div class="content1" id="selected1">
+            <img src="3.png" alt="" />
+            <div>
+              <p>
+                <span class="name">Mark Webber</span> reacted to your recent
+                post <span id="tournament">My fitst tournament today! </span>
+                <h4 class="min1">1m ago</h4> 
+              </p>
+            </div>
+          </div>
+          <div class="content1" id="selected2">
+            <img src="4.png" alt="" />
+            <div>
+              <p>
+                <span class="name">Angela Gray</span> followed you
+                <h4 class="min2">5m ago</h4>
+              </p>
+            </div>
+          </div>
+          <div class="content1" id="selected3">
+            <img src="1.png" alt="" />
+            <div>
+              <p>
+                <span class="name">Jacob Thompson</span> has joined your group
+                <span id="chess">Chess club</span>
+                <h4 class="min3">1 day ago</h4>
+              </p>
+            </div>
+          </div>
+          <div class="content2">
+            <img src="6.png" alt="" />
+            <div>
+              <p>
+                <span class="name">Rizky Hasanuddin</span> sent you a private massage
+                <h4 class="min3">5 days ago</h4>
+                <p id="pframe">
+                    Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and i'm already having lots of fun and improving my game.
+                </p>
+              </p>
+            </div>
+          </div>
+          <div class="content3" >
+            <img src="2.png" alt="" />
+            <div>
+              <p>
+                <span class="name">Kimberly Smith</span> commented <span id="urpic">on your picture</span>
+                <img id="kimimg" src="chess-100.png" alt="">
+                <h4 class="min2">1 week ago</h4>
+              </p>
+            </div>
+          </div> <div class="content3" id="contentmid2">
+            <img src="5.png" alt="" />
+            <div>
+              <p>
+                <span class="name">Nathan Peterson</span> followed reacted to yourrecent post <span id="endgame">5 end-gamed strategies to increase your win rate</span>
+                <h4 class="min2">2 weeks ago</h4>
+              </p>
+            </div>
+          </div> <div class="content3" >
+            <img src="7.png" alt="" />
+            <div>
+              <p>
+                <span class="name">Anna Kim</span> left the group <span id="chess">Chess Club</span>
+                <h4 class="min2">2 weeks ago</h4>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
